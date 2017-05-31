@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width:100%;
+	height: 100%;
+	overflow:hidden;
+}
+.box{
+	width: 800px;
+	height: 500px;
+	margin:50px auto;
+	border: 1px solid #236096;
+	position:relative;
+	border-radius: 5px;
+}
+.box img{
+	width: 100%;
+	height: 100%;
+}
+.box table{
+	position:absolute;
+	top:0px;
+	left:50%;
+	margin-left: -150px;
+}
+table,tr,td{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	opacity: 0.9;
+}
+td{
+	width: 24px;
+	height: 24px;
+	font-size: 10px;
+	color: #333;
+	background-color: #212121;
+}
+td.I{
+	background:url(../images/0.jpg);
+}
+td.T{
+	background:url(../images/1.jpg);
+}
+td.L{
+	background:url(../images/2.jpg);
+}
+td.J{
+	background:url(../images/3.jpg);
+}
+td.S{
+	background:url(../images/4.jpg);
+}
+td.Z{
+	background:url(../images/5.jpg);
+}
+td.O{
+	background:url(../images/6.jpg);
+}
+td.X{
+	background:url(../images/6.jpg);
+}
+#tip{
+	position:absolute;
+	top:10px;
+	left:30px;
+	line-height: 150%;
+	font-size: 18px;
+	color:green;
+}
+.tip2{
+	position:absolute;
+	top:10px;
+	right:60px;
+	color:white;
+}
+.tip2 h2{
+	margin-bottom: 20px;
+}
+.tip2 p{
+	margin-bottom: 10px;
+}

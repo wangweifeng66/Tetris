@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>俄罗斯方块</title>
+	<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+	<div class="box">
+		<img src="images/bg.jpg" alt="">
+
+		<div id="tip"></div>
+
+		<table id="mytable">
+
+		</table>
+		<div class="tip2">
+			<h2>游戏指南</h2>
+			<p>↑ 旋转方块</p>
+			<p>← 向左移动</p>
+			<p>→ 向右移动</p>
+			<p>↓ 快速下落</p>
+		</div>
+		<audio src="images/bgm.mp3" autoplay></audio>
+		<audio src="images/drop.wav" id="dropmusic"></audio>
+	</div>
+	<script type="text/javascript" src="js/Game.js"></script>
+	<script type="text/javascript" src="js/Block.js"></script>
+	<script type="text/javascript" src="js/Map.js"></script>
+	<script type="text/javascript">
+		var game = new Game("mytable");
+	</script>
+</body>
+</html>
